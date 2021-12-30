@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/workforwinoldapp/static/css/main.a713aa84.chunk.css",
+    "main.js": "/workforwinoldapp/static/js/main.4a4c23af.chunk.js",
+    "main.js.map": "/workforwinoldapp/static/js/main.4a4c23af.chunk.js.map",
+    "runtime-main.js": "/workforwinoldapp/static/js/runtime-main.c348be7b.js",
+    "runtime-main.js.map": "/workforwinoldapp/static/js/runtime-main.c348be7b.js.map",
+    "static/css/2.b189f9d5.chunk.css": "/workforwinoldapp/static/css/2.b189f9d5.chunk.css",
+    "static/js/2.fc2cac5d.chunk.js": "/workforwinoldapp/static/js/2.fc2cac5d.chunk.js",
+    "static/js/2.fc2cac5d.chunk.js.map": "/workforwinoldapp/static/js/2.fc2cac5d.chunk.js.map",
+    "index.html": "/workforwinoldapp/index.html",
+    "static/css/2.b189f9d5.chunk.css.map": "/workforwinoldapp/static/css/2.b189f9d5.chunk.css.map",
+    "static/css/main.a713aa84.chunk.css.map": "/workforwinoldapp/static/css/main.a713aa84.chunk.css.map",
+    "static/js/2.fc2cac5d.chunk.js.LICENSE.txt": "/workforwinoldapp/static/js/2.fc2cac5d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/workforwinoldapp/static/media/background.b527873f.webp",
+    "static/media/icon.b93b71b8.png": "/workforwinoldapp/static/media/icon.b93b71b8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c348be7b.js",
+    "static/css/2.b189f9d5.chunk.css",
+    "static/js/2.fc2cac5d.chunk.js",
+    "static/css/main.a713aa84.chunk.css",
+    "static/js/main.4a4c23af.chunk.js"
+  ]
+}
