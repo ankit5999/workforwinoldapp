@@ -1,0 +1,149 @@
+/* ******** Contest CSS ******* */
+.contesthero {
+    height: 90vh;
+    background-color: #1f2235;
+    background-image: url("https://1.bp.blogspot.com/-YEXdAsO7FfI/YCUNRVL6W0I/AAAAAAAAC30/lappHvFrtTYzLP7dkqvCXhv5vMn_5iTeQCLcBGAsYHQ/s16000/background.webp");
+    background-position: center;
+    background-size: cover;
+  }
+  .contestheader{
+    width: 100%;
+  }
+  .contest-col1 {
+    flex-basis: 60% !important;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 200px !important;
+  }
+  .contest-col1 h1{
+    color: #fff;
+    font-weight: 900;
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .contest-col1 p{
+    font-size: 20px;
+    color: #fff;
+  }
+  .contest-col2{
+    position: relative;
+    flex-basis: 30% !important;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 80px !important;
+  }
+  .contest-col2 img {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5) !important;
+    border-radius: 5px;
+  }
+  .contestbutton{
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #1f2235;
+    border: 1px solid #fff;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    padding: 7px;
+    width: 170px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 30px 5px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5) !important;
+  }
+  .contestbutton:hover{
+    background-color: #ff4a57 !important;
+    border: 1px solid #ff4a57;
+  }
+  .contestbutton span{
+    font-size: 25px;
+  }
+  
+  .upcommingcontest{
+    color: #ff4a57;
+    text-align: center;
+    font-weight: 600;
+    font-size: 3.5rem;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .commingcontest{
+      background: #fff;
+      min-height: 410px;
+      padding: 10px;
+      border-radius: 10px;
+      bottom: 0;
+      box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.5) !important;
+  }
+
+  .contestbottom{
+    height: 90vh;
+    background-color: #1f2235;
+    background-image: url("https://1.bp.blogspot.com/-_hvpkLjvQW0/YCX7yrQnHeI/AAAAAAAAC5c/KI_SrD-c4GwvAMUGcrb59cGUvLpjVDSTQCLcBGAsYHQ/s16000/background2.webp");
+    background-position: center;
+    background-size: cover;
+  }
+
+  
+  
+  .contestwin1 { 
+    flex-basis: 50% !important;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 200px !important;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5) !important;
+  border-radius: 2rem;
+}
+  .contestwin1 h2{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.7rem;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .contestwin1 p{
+    font-size: 20px;
+    color: #fff;
+  }
+  .contestwin2{
+    position: relative;
+    flex-basis: 40% !important;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: -20px !important;
+  }
+  /* .contestwin2 img {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5) !important;
+    border-radius: 5px;
+    
+  } */
+
+
+  /* ************* Contest CSS End ********* */
+
+  
+
+
+  @media only screen and (max-width: 720px) {
+    .contesthero,.contestbottom{
+        height: 100%;
+      }
+      .contest-col2, .contestwin2 {
+        margin-bottom: 50px;
+        width: 100% !important;
+        margin-top: 40px !important;
+        margin-left: 0px;
+      }
+      .contest-col1,.contestwin1 {
+        flex-basis: 100%;
+        margin: 0 !important;
+        width: 100% !important;
+      }
+      .contest-col1 h1 {
+        font-size: 30px;
+      }
+      .contestrow {
+        flex-direction: column-reverse;
+      }
+  }
